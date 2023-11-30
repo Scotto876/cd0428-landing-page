@@ -102,7 +102,7 @@ window.addEventListener("scroll", () => {
     const sectionBounds = section.getBoundingClientRect();
 
     // Remove existing active class from  section
-    section.classList.remove("your-active-class");
+    section.classList.remove("nav-active");
 
     // Check if the section is visible in the viewport
     if (
@@ -112,14 +112,14 @@ window.addEventListener("scroll", () => {
       sectionBounds.right <= window.innerWidth
     ) {
       // Add the active class to the section
-      section.classList.add("your-active-class");
+      section.classList.add("nav-active");
 
       // adds active class if true, removes active class if false
       allAnchors.forEach((anchor, anchorIndex) => {
         if (index === anchorIndex) {
-          anchor.classList.add("your-active-class");
+          anchor.classList.add("nav-active");
         } else {
-          anchor.classList.remove("your-active-class");
+          anchor.classList.remove("nav-active");
         }
       });
     }
