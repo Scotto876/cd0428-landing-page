@@ -238,6 +238,9 @@ section.nav-active .landing__container::after {
   }
 }
 @media only screen and (max-width: 475px) {
+  p {
+    font-size: 12px;
+  }
   section.nav-active {
     background: rgb(0, 0, 0);
     background: linear-gradient(
