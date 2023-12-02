@@ -1,9 +1,22 @@
 # Landing Page Project
 
+## Overview
+
+This project involves converting a static landing page into an interactive one by modifying the HTML, CSS, and JavaScript files. The goal is to enhance the user experience by updating the content and providing smooth scrolling functionality using the DOM and javascript.
+
+## Getting Started
+
+To begin working on the project, follow these steps:
+
+1. Clone the project repository to your local machine
+   or code using workspace.
+
+2. open `js/app.js` and start building out the app's functionality
+
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+1.  Build the navbar by iterating through each section.
 
-To get started, open `js/app.js` and start building out the app's functionality
+2.  Using Eventlistener AND smooth scrolling to sections when clicked.
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+3.  Add and highlight active state when clicked.

@@ -84,7 +84,7 @@ section {
 }
 
 .navbar__menu .menu__link:hover {
-  background: #288d5e;
+  background: #288d5b;
   color: #fff;
   transition: ease 0.3s all;
 }
@@ -237,6 +237,15 @@ section.nav-active .landing__container::after {
     transform: rotate(360deg) translate(-1em) rotate(-360deg);
   }
 }
+
+/* keep selected nav item highlighted */
+.navbar__menu a.nav-active,
+.navbar__menu a.nav-active:hover,
+.navbar__menu a.nav-active:focus {
+  color: #ffb700;
+  font-weight: bold;
+}
+font-weight: bold;
 @media only screen and (max-width: 475px) {
   p {
     font-size: 12px;
@@ -268,5 +277,12 @@ section.nav-active .landing__container::after {
     to {
       transform: rotate(360deg) translate(-1em) rotate(-360deg);
     }
+  }
+  /* keep selected nav item highlighted */
+  .navbar__menu a.nav-active,
+  .navbar__menu a.nav-active:hover,
+  .navbar__menu a.nav-active:focus {
+    color: #ffb700;
+    font-weight: bold;
   }
 }
